@@ -9,8 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/ipc_client" />
-            <option value="$PROJECT_DIR$/ipc_server" />
+            <option value="$PROJECT_DIR$/ipc_server_messenger" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
