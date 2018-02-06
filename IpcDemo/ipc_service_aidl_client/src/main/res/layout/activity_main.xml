@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ipc.base.worke.android.com.ipc_service_aidl_client.MainActivity">
+
+    <Button
+        android:id="@+id/bt_addbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加入书本" />
+
+    <Button
+        android:id="@+id/bt_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册" />
+    <Button
+        android:id="@+id/bt_unregion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解注册" />
+</LinearLayout>

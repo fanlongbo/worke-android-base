@@ -13,12 +13,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 /**
- * 消息在IPC中进行通信的客户端
+ * 通过Messenger进行进程间通信的客户端
  */
 
 public class MessengerClientDemo extends AppCompatActivity {
-    private static final String TAG = MessengerClientDemo.class.getSimpleName();
+    private static final String TAG = MessengerClientDemo.class.getSimpleName()+"客户端--->";
     private Messenger messenger;
+    //提供给服务端的Messenger 用于接收服务端发来的信息
     private Messenger clientMessenger = new Messenger(new ClientMessengerHandler());
 
     private class ClientMessengerHandler extends Handler {
@@ -27,7 +28,7 @@ public class MessengerClientDemo extends AppCompatActivity {
             switch (msg.what) {
                 case 0x0002:
                     String m = msg.getData().getString("msg");
-                    Log.i(TAG,"客户端接消息:"+m);
+                    Log.i(TAG,"接收到来自服务端消息:"+m);
                     break;
                 default:
 
@@ -51,6 +52,7 @@ public class MessengerClientDemo extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+            Log.i(TAG,"链接成功 向服务端发送消息 hellow");
         }
 
         @Override

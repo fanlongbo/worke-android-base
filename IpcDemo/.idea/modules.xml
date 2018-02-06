@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IpcDemo.iml" filepath="$PROJECT_DIR$/IpcDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ipc_server_messenger/ipc_server.iml" filepath="$PROJECT_DIR$/ipc_server_messenger/ipc_server.iml" />
+      <module fileurl="file://F:\Android\android_base\IpcDemo\ipc_server_messenger\ipc_server.iml" filepath="F:\Android\android_base\IpcDemo\ipc_server_messenger\ipc_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ipc_server_messenger/ipc_server_messenger.iml" filepath="$PROJECT_DIR$/ipc_server_messenger/ipc_server_messenger.iml" />
+      <module fileurl="file://F:\Android\android_base\IpcDemo\ipc_service_aidl_service\ipc_service_aidl.iml" filepath="F:\Android\android_base\IpcDemo\ipc_service_aidl_service\ipc_service_aidl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ipc_service_aidl_client/ipc_service_aidl_client.iml" filepath="$PROJECT_DIR$/ipc_service_aidl_client/ipc_service_aidl_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ipc_service_aidl_service/ipc_service_aidl_service.iml" filepath="$PROJECT_DIR$/ipc_service_aidl_service/ipc_service_aidl_service.iml" />
     </modules>
   </component>
 </project>
