@@ -9,6 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ipc-sockect-client" />
+            <option value="$PROJECT_DIR$/ipc-sockect-service" />
+            <option value="$PROJECT_DIR$/ipc_contentprovider" />
             <option value="$PROJECT_DIR$/ipc_server_messenger" />
             <option value="$PROJECT_DIR$/ipc_service_aidl_client" />
             <option value="$PROJECT_DIR$/ipc_service_aidl_service" />

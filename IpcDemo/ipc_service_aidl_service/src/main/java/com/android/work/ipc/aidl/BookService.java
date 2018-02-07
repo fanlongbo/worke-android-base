@@ -16,9 +16,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * 进程通信通过 服务端,注意需要处理同步问题
  */
 
-public class BookManager extends Service {
+public class BookService extends Service {
 
-    private static final String TAG = BookManager.class.getSimpleName() + "服务端--->";
+    private static final String TAG = BookService.class.getSimpleName() + "服务端--->";
 
     //因为要考虑同步的问题所以选用此集合,扶持并发读写.
     private CopyOnWriteArrayList<Book> mBookList = new CopyOnWriteArrayList<>();
